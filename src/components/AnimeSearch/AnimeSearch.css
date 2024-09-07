@@ -1,0 +1,10 @@
+.card {
+min-width: 290px;
+margin-top: 20px;
+padding-left: 10px;
+padding-top: 10px;
+}
+
+.list-group-item {
+  min-width: 290px;
+}
