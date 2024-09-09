@@ -20,8 +20,8 @@ function Navbar({setLocations}) {
             <i className="fa-solid fa-bars"></i>
           </button>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="slides" >Show slides</a></li>
-            <li><a className="dropdown-item" href="#">Log out</a></li>
+            <li><a className="dropdown-item" href="https://anime-locations-api.onrender.com/api/v1/locations" target="_blank" >Show API</a></li>
+            <li><a className="dropdown-item" href="https://mauoser.github.io/" target="_blank" >Contact</a></li>
           </ul>
         </div>
       </div>

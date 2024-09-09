@@ -19,7 +19,7 @@ function Searchbar({setLocations}) {
   return (
     <div className="searchbar input-group">
       <span className="input-group-text"><i className="fa-solid fa-magnifying-glass"></i></span>
-      <input placeholder="Tokyo Tower" type="text" className="form-control" onChange={handleChange} />
+      <input placeholder="Anime Name" type="text" className="form-control" onChange={handleChange} />
     </div>
   );
 }

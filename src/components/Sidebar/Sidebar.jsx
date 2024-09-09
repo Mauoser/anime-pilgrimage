@@ -60,36 +60,37 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div>
-        <h3>Share your Anime spot</h3>
+        <h3>Share Your Anime Spot</h3>
         <form>
           <div className="input-group mb-3">
             <span className="input-group-text" id="location-title"><i className="fa-solid fa-torii-gate form-icons"></i></span>
             <input name="location[title]" placeholder="Shibuya Scramble Crossing" type="text" className="form-control" aria-describedby="location-title" />
             </div>
           <div className="input-group mb-3">
-            <span className="input-group-text" id="location-address"><i className="fa-solid fa-location-dot form-icons"></i></span>
+            <span className="input-group-text" id="location-address"><i className="fa-solid fa-location-crosshairs form-icons"></i></span>
             <input name="location[address]" placeholder="2 Chome-1 Dogenzaka, Shibuya City, Tokyo 150-0043" aria-describedby="location-address" type="address" className="form-control" />
           </div>
 
           <div className="input-group mb-3">
-          <select className="form-select" aria-label="Default select example">
-
-
-  { prefectures.map((prefecture) => {
+            <span className="input-group-text" id="location-address">
+              <i className="fa-solid fa-location-dot form-icons"></i>
+            </span>
+            <select className="form-select" aria-label="Default select example">
+            { prefectures.map((prefecture) => {
               return (
                 <React.Fragment key={prefecture}>
                   <option value={prefecture}>{prefecture}</option>
                 </React.Fragment>
               );
             }) }
-</select>
-</div>
+            </select>
+          </div>
 
 <div className="mb-3">
 <AnimeSearch />
 </div>
           <div className="input-group mb-3">
-            <span className="input-group-text" id="location-picture"><i className="fa-solid fa-camera-retro form-icons"></i></span>
+            <span className="input-group-text" id="location-picture"><i className="fa-solid fa-image form-icons"></i></span>
             <input name="location[picture]" type="text" className="form-control" aria-describedby="location-picture" placeholder='http://example.com/image.jpg'/>
           </div>
           <div className="d-grid">

@@ -32,7 +32,7 @@ function AnimeSearch() {
 
   return (
     <div className="searchbar input-group">
-      <span className="input-group-text"><i className="fa-solid fa-magnifying-glass"></i></span>
+      <span className="input-group-text"><i className="fa-solid fa-magnifying-glass form-icons"></i></span>
       <input
         placeholder="Search for an anime"
         type="text"

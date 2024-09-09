@@ -15,7 +15,7 @@ function Location({location}) {
             { location.criteria .map( crit => <span key={crit}>{crit}</span>)}
           </p>
         </div>
-        <a target="_blank" href={gmapsUrl}>Show the map 📍</a>
+        <a target="_blank" href={gmapsUrl}>Show the Map 📍</a>
       </div>
     </div>
   );

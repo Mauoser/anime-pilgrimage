@@ -2,3 +2,14 @@
   color: white;
   background-color: #e7bfff;
 }
+
+#navbar .dropdown button {
+  background-color: #CA3433; /* Set the desired background color */
+  color: white; /* Optional: Change text color */
+  border: none;
+}
+
+#navbar .dropdown button:hover {
+  background-color: #c70039; /* Change the background color on hover */
+  border: none;
+}
